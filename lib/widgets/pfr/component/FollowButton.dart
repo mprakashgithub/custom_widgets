@@ -1,4 +1,3 @@
-import 'package:app/constant.dart';
 import 'package:flutter/material.dart';
 
 class FollowButton extends StatelessWidget {

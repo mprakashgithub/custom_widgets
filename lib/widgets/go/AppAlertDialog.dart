@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:fluttergohylogistics/helper/AppColors.dart';
-import 'package:fluttergohylogistics/helper/AppConstants.dart';
-import 'package:fluttergohylogistics/localization/AppLocalization.dart';
 
 class AppAlertDialog extends StatefulWidget {
   String actionText;
@@ -28,7 +25,7 @@ class AppAlertDialog extends StatefulWidget {
 
   AppAlertDialog(
       {Key key,
-        this.actionTextWork,
+      this.actionTextWork,
       this.textMsg,
       this.textHeading,
       this.marginOutside,
@@ -43,7 +40,8 @@ class AppAlertDialog extends StatefulWidget {
       this.margin,
       this.padding,
       this.backColor,
-      this.borderColor,this.textMsgColor,
+      this.borderColor,
+      this.textMsgColor,
       this.maxLines,
       this.magMaxLines})
       : super(key: key);
@@ -61,7 +59,7 @@ class AppAlertDialogState extends State<AppAlertDialog> {
     // TODO: implement build
     return Container(
         width: 300.0,
-        height: widget.magMaxLines>2?250.0:200.0,
+        height: widget.magMaxLines > 2 ? 250.0 : 200.0,
         margin: widget.marginOutside,
         padding: widget.padding,
         decoration: BoxDecoration(
@@ -101,19 +99,17 @@ class AppAlertDialogState extends State<AppAlertDialog> {
             ),
             Container(
               width: 100.0,
-              margin: EdgeInsets.only(top:15.0),
+              margin: EdgeInsets.only(top: 15.0),
               padding: EdgeInsets.all(8.0),
               child: FlatButton(
                 color: AppColors.buttonColor,
                 onPressed: () {
-                  if(widget.actionTextWork=="pop") {
+                  if (widget.actionTextWork == "pop") {
                     Navigator.of(context).pop();
-                  }else if(widget.actionTextWork==AppConstants.logout) {
+                  } else if (widget.actionTextWork == AppConstants.logout) {
                     Navigator.of(context).pop();
                     SystemChannels.platform.invokeMethod('SystemNavigator.pop');
-
-                  }
-                  else{
+                  } else {
                     Navigator.of(context).pop();
                     Navigator.pushNamed(context, AppConstants.stockItemScreen,
                         arguments: AppConstants.searchArticleCode);

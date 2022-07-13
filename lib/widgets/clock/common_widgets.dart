@@ -1,6 +1,3 @@
-import 'package:clokworx/view/app_data/app_colors.dart';
-import 'package:clokworx/view/app_data/app_strings.dart';
-import 'package:clokworx/view/app_data/app_text_style.dart';
 import 'package:flutter/material.dart';
 
 class CommonWidgets {

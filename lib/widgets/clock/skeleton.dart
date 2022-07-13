@@ -1,5 +1,3 @@
-import 'package:clokworx/view/app_data/app_colors.dart';
-import 'package:clokworx/view/widgets/app_drawer.dart';
 import 'package:flutter/material.dart';
 
 class Skeleton extends StatefulWidget {

@@ -1,8 +1,3 @@
-import 'package:app/component/readmore.dart';
-import 'package:app/constant.dart';
-import 'package:app/model/project.dart';
-import 'package:app/provider/project_provider.dart';
-import 'package:app/repository/category_repository.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

@@ -1,8 +1,4 @@
-import 'package:app/interfaces/OnCharacterChangeListener.dart';
-import 'package:app/model/project.dart';
 import 'package:flutter/material.dart';
-
-import '../constant.dart';
 
 class CharacterSelectionDialog {
   /// CREATING SINGLETON PATTERN

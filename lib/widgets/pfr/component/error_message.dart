@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-import '../../../constant.dart';
 
 class ErrorMessage extends StatelessWidget {
   const ErrorMessage({Key? key, required this.msg, this.useWarning = true})

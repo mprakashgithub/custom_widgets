@@ -1,7 +1,4 @@
-
 import 'package:flutter/material.dart';
-import 'package:fluttergohylogistics/helper/AppColors.dart';
-import 'package:fluttergohylogistics/localization/AppLocalization.dart';
 
 class AppText extends StatefulWidget {
   String text;
@@ -13,7 +10,6 @@ class AppText extends StatefulWidget {
   EdgeInsets padding;
   Color backColor;
   int maxLines;
-
 
   AppText(
       {Key key,

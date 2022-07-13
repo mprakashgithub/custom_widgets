@@ -1,8 +1,5 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttergohylogistics/helper/AppColors.dart';
-import 'package:fluttergohylogistics/localization/AppLocalization.dart';
 
 class AppButton extends StatefulWidget {
   String text;
@@ -26,7 +23,7 @@ class AppButton extends StatefulWidget {
       this.onPressed,
       this.textColor,
       this.padding,
-        this.margin,
+      this.margin,
       this.buttonBackground})
       : super(key: key);
 
@@ -45,7 +42,6 @@ class AppButtonState extends State<AppButton> {
         padding: widget.padding,
         margin: widget.margin,
         child: RaisedButton(
-
           onPressed: widget.onPressed,
           color: widget.buttonBackground,
           child: Text(

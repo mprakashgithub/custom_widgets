@@ -1,12 +1,3 @@
-import 'package:clokworx/model/models/specific_date_attendance_model.dart';
-import 'package:clokworx/view/app_data/app_colors.dart';
-import 'package:clokworx/view/app_data/app_strings.dart';
-import 'package:clokworx/view/app_data/app_text_style.dart';
-import 'package:clokworx/view/screens/add_note_start_time.dart';
-import 'package:clokworx/view/screens/floating_holiday_calendar.dart';
-import 'package:clokworx/view/screens/sick_calendar.dart' as sickCalendar;
-import 'package:clokworx/view/screens/tour_lobby.dart';
-import 'package:clokworx/view/widgets/common_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';

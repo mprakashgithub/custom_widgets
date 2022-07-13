@@ -1,4 +1,3 @@
-import 'package:callme_ve/view/widgets/skelton.dart';
 import 'package:flutter/material.dart';
 
 class ShimmerEffect extends StatelessWidget {
