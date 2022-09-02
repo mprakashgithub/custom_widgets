@@ -2,12 +2,6 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:image_picker/image_picker.dart';
-import 'package:lec/view/app_data/app_colors.dart';
-import 'package:lec/view/app_data/app_strings.dart';
-import 'package:lec/view/app_data/app_text_style.dart';
-import 'package:lec/view/screens/report_upload.dart';
 import '../widgets/custom_buttom.dart';
 
 class PendingPhotoUpload extends StatefulWidget {

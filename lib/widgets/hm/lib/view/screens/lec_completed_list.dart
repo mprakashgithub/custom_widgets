@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lec/view/app_data/app_colors.dart';
-import 'package:lec/view/app_data/app_strings.dart';
-import 'package:lec/view/app_data/app_text_style.dart';
-
-import '../../model/models/lec_pending_model.dart';
 
 class LecCompletedList extends StatefulWidget {
   const LecCompletedList({Key? key}) : super(key: key);

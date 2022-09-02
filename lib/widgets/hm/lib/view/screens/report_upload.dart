@@ -1,12 +1,5 @@
 import 'dart:io';
-
-import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:lec/view/app_data/app_colors.dart';
-import 'package:lec/view/app_data/app_dialogs.dart';
-import 'package:lec/view/app_data/app_strings.dart';
-import 'package:lec/view/app_data/app_text_style.dart';
-
 import '../widgets/custom_buttom.dart';
 
 class ReportUpload extends StatefulWidget {

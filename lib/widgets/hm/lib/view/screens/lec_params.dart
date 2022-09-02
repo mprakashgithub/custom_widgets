@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lec/view/app_data/app_colors.dart';
-import 'package:lec/view/app_data/app_text_style.dart';
-import 'package:lec/view/screens/pending_photo_upload.dart';
-
 import '../app_data/app_strings.dart';
 import '../widgets/custom_buttom.dart';
 
